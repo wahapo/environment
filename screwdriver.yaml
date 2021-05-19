@@ -1,0 +1,10 @@
+jobs:
+  main:
+    steps:
+      - printenv
+    image: node:14
+    environment:
+      HOGE:
+        - ls
+        - pwd
+      
