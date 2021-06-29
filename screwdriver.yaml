@@ -6,6 +6,7 @@ jobs:
     environment:
       HOGE:
         - ls
+        - sleep 20
         - pwd
       
 
