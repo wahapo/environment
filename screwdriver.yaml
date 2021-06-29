@@ -2,11 +2,11 @@ jobs:
   main:
     steps:
       - printenv
+      - sleep 20
     image: node:14
     environment:
       HOGE:
         - ls
-        - sleep 20
         - pwd
       
 
