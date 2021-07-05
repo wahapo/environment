@@ -9,4 +9,5 @@ jobs:
       HOGE:
         - ls
         - pwd
+      SD_ARTIFACTS_DIR: my_artifacts/
       
